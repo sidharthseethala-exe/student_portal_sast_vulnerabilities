@@ -1,3 +1,4 @@
+from shift_cipher import decrypt
 from collections import Counter
 import string
 
@@ -64,3 +65,4 @@ def chi_square_attack(ciphertext, decrypt_function):
             best_plaintext = plaintext
 
     return best_key, best_plaintext, best_score
+
