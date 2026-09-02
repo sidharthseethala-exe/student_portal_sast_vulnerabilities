@@ -1,0 +1,33 @@
+where the final equality holds by condition 1. So
+
+Pr[C = c] = sum over m in M of Pr[Enc_K(m) = c] times Pr[M = m] = 1/|K|.
+
+This holds for any distribution over M. Thus, for any distribution over M, any m in M with Pr[M = m) not equal to 0, and any c in C, we have:
+
+Pr[M = m | C = c]
+= Pr[C = c | M = m] times Pr[M = m] / Pr[C = c]
+= Pr[Enc_K(m) = c] times Pr[M = m] / Pr[C = c]
+= |K|^(-1) times Pr[M = m] / |K|^(-1)
+= Pr[M = m),
+
+and the scheme is perfectly secret.
+
+For the second direction, assume the encryption scheme is perfectly secret; we show that conditions 1 and 2 hold. Fix arbitrary c in C. There must be some message m* for which Pr[Enc_K(m*) = c] is not equal to 0. Lemma 2.4 then implies that Pr[Enc_K(m) = c] is not equal to 0 for every m in M.
+
+In other words, if we let M = {m1, m2, ...}, then for each mi in M we have a nonempty set of keys Ki contained in K such that Enc_k(mi) = c if and only if k is in Ki. Moreover, when i is not equal to j then Ki and Kj must be disjoint or else correctness fails to hold.
+
+Since |K| = |M|, we see that each Ki contains only a single key ki, as required by condition 2. Now, Lemma 2.4 shows that for any mi, mj in M we have
+
+Pr[K = ki] = Pr[Enc_K(mi) = c] = Pr[Enc_K(mj) = c] = Pr[K = kj].
+
+Since this holds for all 1 <= i, j <= |M| = |K|, and ki is not equal to kj for i not equal to j, this means each key is chosen with probability 1/|K|, as required by condition 1.
+
+Shannon's theorem is useful for deciding whether a given scheme is perfectly secret. Condition 1 is easy to check, and condition 2 can be demonstrated (or contradicted) without having to compute any probabilities, in contrast to working with Definition 2.3 directly. As an example, perfect secrecy of the one-time pad is trivial to prove using Shannon's theorem.
+
+We stress, however, that the theorem only applies when |M| = |K| = |C|.
+
+References and Additional Reading
+
+The one-time pad is popularly credited to Vernam, who filed a patent for it, but recent historical research shows that it was invented some 35 years earlier. Analysis of the one-time pad had to await the groundbreaking work of Shannon, who introduced the notion of perfect secrecy.
+
+In this chapter we studied perfectly secret encryption. Some other cryptographic problems can also be solved with "perfect" security. A notable example is the problem of message authentication where the aim is to prevent an adversary from undetectably modifying a message sent from one party to another. We study this problem in depth in Chapter 4, discussing "perfectly secure" message authentication in Section 4.6.

@@ -1,0 +1,161 @@
+ZIQZ = THAT 0120
+
+ZITGKTD -> 0123425
+
+VITKT -> 01232
+ZIQZ -> 0120
+QSS -> 011
+STDDQ -> 01223
+DTLLQUT -> 0122341
+
+
+T : 223 (12.0867%)
+Z : 159 (8.61789%)
+O : 151 (8.18428%)
+F : 138 (7.47967%)
+G : 134 (7.26287%)
+K : 120 (6.50407%)
+
+
+T -> E
+   ↓
+ZIT -> THE
+   ↓
+ZG -> TO
+
+
+YGK -> FOR
+
+
+QFR -> 012 common 3 letter - AND
+Q -> A
+F -> N
+R -> D
+
+GY : 7
+
+T -> E
+Z I T
+? ? E
+
+OF : 15
+IN (F -> N)
+
+
+ZITGKTD
+Z -> T
+I -> H
+T -> E
+G -> O
+K -> R
+
+Z I T G K T D
+T H E O R E ?
+D -> M
+
+DXLZ : 2
+D -> M
+Z -> T
+
+D X L Z
+M ? ? T
+
+MUST
+X -> U
+L -> S
+
+
+DTLLQUT : 4
+D T L L Q U T
+M E S S A ? E
+U -> G
+
+
+EGFROZOGF : 5
+E G F R O Z O G F
+? O N D I T I O N
+E -> C
+
+HTKYTEZSN : 5
+H T K Y T E Z S N
+? E R F E C T ? ?
+
+H -> P
+S -> L
+N -> Y
+
+
+D -> M
+E -> C
+F -> N
+G -> O
+H -> P
+I -> H
+K -> R
+L -> S
+N -> Y
+O -> I
+Q -> A
+R -> D
+S -> L
+T -> E
+U -> G
+X -> U
+Y -> F
+Z -> T
+
+
+T -> E
+   
+ZIT -> THE
+   
+ZG -> TO
+   
+YGK -> FOR
+   
+QFR -> AND
+   
+ZITGKTD -> THEOREM
+   
+DXLZ -> MUST
+   
+DTLLQUT -> MESSAGE
+   
+EGFROZOGF -> CONDITION
+   
+HTKYTEZSN -> PERFECTLY
+
+
+
+5. Try Substitution
+ABCDEFGHIJKLMNOPQRSTUVWXYZ
+QWERTYUIOPASDFGHJKLZXCVBNM
+
+
+
+1. T -> E
+2. Z -> T
+3. I -> H
+4. G -> O
+5. Y -> F
+6. K -> R
+7. Q -> A
+8. F -> N
+9. R -> D
+10. O -> I
+11. D -> M
+12. X -> U
+13. L -> S
+14. U -> G
+15. E -> C
+16. H -> P
+17. S -> L
+18. N -> Y
+A -> K
+B -> X
+C -> V
+J -> Q
+M -> Z
+P -> J
+V -> W
+W -> B

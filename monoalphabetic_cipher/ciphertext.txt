@@ -1,0 +1,33 @@
+vitkt zit yofqs tjxqsozn igsrl wn egfrozogf 1. Lg
+
+Hk[E = e] = lxd gctk d of D gy Hk[Tfe_A(d) = e] zodtl Hk[D = d] = 1/|A|.
+
+Ziol igsrl ygk qfn rolzkowxzogf gctk D. Zixl, ygk qfn rolzkowxzogf gctk D, qfn d of D vozi Hk[D = d) fgz tjxqs zg 0, qfr qfn e of E, vt iqct:
+
+Hk[D = d | E = e]
+= Hk[E = e | D = d] zodtl Hk[D = d] / Hk[E = e]
+= Hk[Tfe_A(d) = e] zodtl Hk[D = d] / Hk[E = e]
+= |A|^(-1) zodtl Hk[D = d] / |A|^(-1)
+= Hk[D = d),
+
+qfr zit leitdt ol htkytezsn ltektz.
+
+Ygk zit ltegfr roktezogf, qllxdt zit tfeknhzogf leitdt ol htkytezsn ltektz; vt ligv ziqz egfrozogfl 1 qfr 2 igsr. Yob qkwozkqkn e of E. Zitkt dxlz wt lgdt dtllqut d* ygk vioei Hk[Tfe_A(d*) = e] ol fgz tjxqs zg 0. Stddq 2.4 zitf odhsotl ziqz Hk[Tfe_A(d) = e] ol fgz tjxqs zg 0 ygk tctkn d of D.
+
+Of gzitk vgkrl, oy vt stz D = {d1, d2, ...}, zitf ygk tqei do of D vt iqct q fgftdhzn ltz gy atnl Ao egfzqoftr of A lxei ziqz Tfe_a(do) = e oy qfr gfsn oy a ol of Ao. Dgktgctk, vitf o ol fgz tjxqs zg p zitf Ao qfr Ap dxlz wt rolpgofz gk tslt egkktezftll yqosl zg igsr.
+
+Lofet |A| = |D|, vt ltt ziqz tqei Ao egfzqofl gfsn q lofust atn ao, ql ktjxoktr wn egfrozogf 2. Fgv, Stddq 2.4 ligvl ziqz ygk qfn do, dp of D vt iqct
+
+Hk[A = ao] = Hk[Tfe_A(do) = e] = Hk[Tfe_A(dp) = e] = Hk[A = ap].
+
+Lofet ziol igsrl ygk qss 1 <= o, p <= |D| = |A|, qfr ao ol fgz tjxqs zg ap ygk o fgz tjxqs zg p, ziol dtqfl tqei atn ol eigltf vozi hkgwqwosozn 1/|A|, ql ktjxoktr wn egfrozogf 1.
+
+Liqffgf'l zitgktd ol xltyxs ygk rteorofu vitzitk q uoctf leitdt ol htkytezsn ltektz. Egfrozogf 1 ol tqln zg eitea, qfr egfrozogf 2 eqf wt rtdgflzkqztr (gk egfzkqroeztr) vozigxz iqcofu zg egdhxzt qfn hkgwqwosozotl, of egfzkqlz zg vgkaofu vozi Rtyofozogf 2.3 roktezsn. Ql qf tbqdhst, htkytez ltekten gy zit gft-zodt hqr ol zkocoqs zg hkgct xlofu Liqffgf'l zitgktd.
+
+Vt lzktll, igvtctk, ziqz zit zitgktd gfsn qhhsotl vitf |D| = |A| = |E|.
+
+Ktytktfetl qfr Qrrozogfqs Ktqrofu
+
+Zit gft-zodt hqr ol hghxsqksn ektroztr zg Ctkfqd, vig yostr q hqztfz ygk oz, wxz ktetfz iolzgkoeqs ktltqkei ligvl ziqz oz vql ofctfztr lgdt 35 ntqkl tqksotk. Qfqsnlol gy zit gft-zodt hqr iqr zg qvqoz zit ukgxfrwktqaofu vgka gy Liqffgf, vig ofzkgrxetr zit fgzogf gy htkytez ltekten.
+
+Of ziol eiqhztk vt lzxrotr htkytezsn ltektz tfeknhzogf. Lgdt gzitk eknhzgukqhioe hkgwstdl eqf qslg wt lgsctr vozi "htkytez" ltexkozn. Q fgzqwst tbqdhst ol zit hkgwstd gy dtllqut qxzitfzoeqzogf vitkt zit qod ol zg hktctfz qf qrctklqkn ykgd xfrtztezqwsn dgroynofu q dtllqut ltfz ykgd gft hqkzn zg qfgzitk. Vt lzxrn ziol hkgwstd of rthzi of Eiqhztk 4, rolexllofu "htkytezsn ltexkt" dtllqut qxzitfzoeqzogf of Ltezogf 4.6.
