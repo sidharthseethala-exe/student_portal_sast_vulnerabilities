@@ -1,0 +1,69 @@
+OPERATING-SYSTEM RANDOMNESS EXPERIMENT
+=======================================================
+
+This report summarizes statistical measurements of random byte streams.
+Statistical results are not proof of cryptographic security.
+
+-------------------------------------------------------
+Source: Linux /dev/urandom
+Bytes analysed: 1,048,576
+Bits analysed: 8,388,608
+Zero bits: 4,194,316
+One bits: 4,194,292
+Percentage of one bits: 49.999857%
+Bit binomial-test p-value: 0.993664
+Byte chi-square statistic: 254.327637
+Byte chi-square p-value: 0.500106
+Observed bit runs: 4,193,589
+Expected bit runs: 4194305.000
+Bit-runs approximate z-score: -0.494422
+Repeated adjacent bytes: 4,068
+Repeated adjacent byte pairs: 983,039
+Longest identical-byte run: 3
+Longest identical-bit run: 24
+Lag-1 serial correlation: -0.00036872
+Lag-1 approximate z-score: -0.377565
+
+-------------------------------------------------------
+Source: OpenSSL rand
+Bytes analysed: 1,048,576
+Bits analysed: 8,388,608
+Zero bits: 4,194,191
+One bits: 4,194,417
+Percentage of one bits: 50.001347%
+Bit binomial-test p-value: 0.938079
+Byte chi-square statistic: 236.633789
+Byte chi-square p-value: 0.789287
+Observed bit runs: 4,191,286
+Expected bit runs: 4194304.997
+Bit-runs approximate z-score: -2.084720
+Repeated adjacent bytes: 4,114
+Repeated adjacent byte pairs: 983,039
+Longest identical-byte run: 3
+Longest identical-bit run: 23
+Lag-1 serial correlation: 0.00039919
+Lag-1 approximate z-score: 0.408766
+
+-------------------------------------------------------
+Source: Windows CNG
+Bytes analysed: 1,048,576
+Bits analysed: 8,388,608
+Zero bits: 4,195,376
+One bits: 4,193,232
+Percentage of one bits: 49.987221%
+Bit binomial-test p-value: 0.459356
+Byte chi-square statistic: 255.983887
+Byte chi-square p-value: 0.470892
+Observed bit runs: 4,192,501
+Expected bit runs: 4194304.726
+Bit-runs approximate z-score: -1.245534
+Repeated adjacent bytes: 4,099
+Repeated adjacent byte pairs: 983,039
+Longest identical-byte run: 3
+Longest identical-bit run: 21
+Lag-1 serial correlation: 0.00075453
+Lag-1 approximate z-score: 0.772640
+
+INTERPRETATION
+---------------
+A p-value is not the probability that a generator is secure. It measures compatibility with a particular statistical null model. Small p-values can indicate a discrepancy, while large p-values do not prove randomness. Multiple tests, sample size, dependencies, and the cryptographic design must also be considered.
